@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quilt-zai-writer"
+version = "0.1.0"
+description = "Creative canon writing via ZAI"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["quilt_zai_writer"]
